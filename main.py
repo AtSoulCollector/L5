@@ -16,4 +16,6 @@ def count_adjacent_pairs(arr: List[int]) -> int:
             count += 1
     return count
 
-
+arr = [1, 2, 2, 3, 4, 4, 4, 5, 5]
+result = count_adjacent_pairs(arr)
+print(f"Количество пар рядом стоящих равных элементов: {result}")
